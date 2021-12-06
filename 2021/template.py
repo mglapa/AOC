@@ -1,24 +1,25 @@
 
+fn = 'sample.txt'
+#fn = 'input.txt'
+
 def load():
-    with open('input.txt', 'r') as f:
+    with open(fn, 'r') as f:
         lines = f.readlines()
     return lines
 
 def part1(lines):
-    pass
+    lines = load()
 
 
 def part2(lines):
-    pass
+    lines = load()
 
 
 def main():
     
-    lines = load()
+    part1()
 
-    part1(lines)
-
-    part2(lines)
+    part2()
 
 
 if __name__ == '__main__':

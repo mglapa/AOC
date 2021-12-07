@@ -7,11 +7,11 @@ def load():
         lines = f.readlines()
     return lines
 
-def part1(lines):
+def part1():
     lines = load()
 
 
-def part2(lines):
+def part2():
     lines = load()
 
 
